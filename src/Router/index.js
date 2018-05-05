@@ -17,7 +17,6 @@ import Accessory from "../components/Flguanli/Accessory"
 import Fenlei from "../components/Flguanli/Fenlei"
 import {Provider} from "react-redux";
 import store from "../Redux/Store"
-import Detail from "../components/Home/Detail"
 import Peijian from "../components/Flguanli/Peijian"
 /*import Product from "../components/Fenlei/Product"
 import Phone from "../components/Fenlei/Phone"
@@ -31,7 +30,6 @@ const router= (
 			<Route path="/account" component={Account} />
 			<Route path="/cart" component={Cart} />
 			<Route path="/fenlei" component={Fenlei} />
-			<Route path="/detail/:id" component={Detail} />
 			<Route path="/flguanli" render={()=>
 				<Flguanli>
 					<Switch>
