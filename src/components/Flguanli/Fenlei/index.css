@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: block;
+  width: 100px;
+  height: 100px; }
+
+#fenlei {
+  padding-bottom: 50px;
+  box-sizing: border-box; }
+  #fenlei .fenlei_hongmo p {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px #ccc solid;
+    text-indent: 24px;
+    font-size: 18px; }
+  #fenlei .fenlei_hongmo strong {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #e9e9e9; }
+  #fenlei .fenlei_hongmo .fenlei_hongmo_ul {
+    height: 160px;
+    border-bottom: 1px #ccc solid;
+    display: flex;
+    line-height: 40px; }
+    #fenlei .fenlei_hongmo .fenlei_hongmo_ul li a {
+      color: #000;
+      font-size: 10px;
+      text-decoration: none;
+      text-align: center; }
+      #fenlei .fenlei_hongmo .fenlei_hongmo_ul li a img {
+        width: 100px;
+        height: 100px; }
+      #fenlei .fenlei_hongmo .fenlei_hongmo_ul li a span {
+        display: block; }
+  #fenlei .fenlei_hongmo .fenlei_phone .fenlei_phone_ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center; }
+    #fenlei .fenlei_hongmo .fenlei_phone .fenlei_phone_ul li {
+      width: 25%; }
+      #fenlei .fenlei_hongmo .fenlei_phone .fenlei_phone_ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 10px; }
+  #fenlei .fenlei_hongmo .fenlei_peijian .fenlei_peijian_ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center; }
+    #fenlei .fenlei_hongmo .fenlei_peijian .fenlei_peijian_ul li {
+      width: 25%;
+      font-size: 10px; }
+  #fenlei .fenlei_hongmo .fenlei_zhoubian .fenlei_zhoubian_ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center; }
+  #fenlei .fenlei_hongmo .fenlei_zhoubian li {
+    width: 25%;
+    font-size: 10px; }

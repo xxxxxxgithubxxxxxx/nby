@@ -1,0 +1,175 @@
+#home{
+    a{
+        text-decoration: none;
+    }
+}
+.home_nav{
+    width: 100%;
+    height: 60px;
+    background: #000;
+    box-shadow: 4px 4px 4px 4px gainsboro;
+    margin-bottom: 6px;
+    #left{
+        img{
+             display: inline-block;
+        }
+        padding-top:18px;
+        padding-left: 20px;
+        float: left;
+        width: 50%;
+        height: 42px;
+        
+    }
+    #right{
+        float: right;
+        span{
+            margin-right: 10px;
+            display: block;
+            width: 70px;
+            height: 60px;
+            background: orangered;
+            text-align: center;
+            line-height: 60px;
+            color: white;
+        }
+    }
+}
+#carousel{
+    width: 100%;
+    margin-bottom: 20px;
+    div{
+        width: 100%;
+        
+    }
+}
+#asider{
+    margin-top: 4px;
+    height: 260px;
+    overflow: hidden;
+    display: flex;
+    img:{
+        display: block;
+    }
+    #left{
+        flex: 1;
+        float: left;
+        width: 49%;
+        margin-right: 4px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    #right{
+        width: 49%;
+        img{
+            width: 100%;
+            height: 50%;
+        }
+    }
+    
+}
+#first,#second{
+    #more{
+        width: 100%;
+        height: 62px;
+        background:  #f4f3ef;
+        text-align: center;
+        line-height: 62px;
+        font-size: 16px;
+        color: #ff4d4d;
+    }
+    #hot{
+        background: white;
+        font-size: 18px;
+        height: 54px;
+        line-height: 54px;
+        padding-left: 24px;
+    }
+    #banner{
+         width: 100%;
+         height: 200px;
+         img{
+            width: 100%;
+            height: 100%;
+         }
+    }
+    ul{
+        width: 100%;
+        height: 920px;
+        li:nth-child(2n+1){
+            margin-right: 7px;
+            
+        }
+        li{
+            width: 49%;
+            float: left;
+            height: 300px;
+            background: #f4f3ef;
+            margin-top: 6px;
+            img{
+                display: block;
+                width: 180px;
+                height: 180px;
+                margin-left: 4px;
+                margin-top: -24px;
+                
+            }
+            #new{
+                width: 46px;
+                height: 46px;
+                border-radius: 100%;
+                background: #ee5e4f;
+                text-align: center;
+                line-height: 46px;
+                color: white;
+                margin: 4px;
+                font-size: 12px;
+                
+            }
+            #dian{
+                    width: 11px;
+                    height: 10px;
+                    background: #ee5e4f;
+                    margin-top: -6px;
+                    margin-left: 42px;
+                    border-radius: 100%;
+                    
+            }
+            #title,#price{
+                width: 100%;
+                height: 20px;
+                text-align: center;
+                line-height: 20px;
+                font-size: 14px;
+                color: black;
+            }
+            #price{
+                margin-top: 20px;
+                span{
+                    font-weight: 600;
+                    font-size:16px ;
+                }
+                span:nth-child(1),span:nth-child(2){
+                    color: #ee5e4f;
+
+                }
+                 span:nth-child(3),span:nth-child(4){
+                    color: #777777;
+
+                }
+            }
+        }
+    }
+}
+#second{
+      margin-bottom: 50px;
+    ul{
+      li{
+            img{
+                margin-top: 40px;
+            }
+       }
+    }
+}
+

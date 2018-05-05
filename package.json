@@ -1,0 +1,47 @@
+{
+  "name": "clone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-sass-chokidar": "^1.2.2",
+    "react": "^16.3.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-swipe": "^5.1.1",
+    "redux": "^4.0.0",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/show": {
+      "target": "https://m.nubia.com",
+      "host": "m.nubia.com",
+      "changeOrigin": true
+    },
+    "/restapi": {
+      "target": "https://www.ele.me",
+      "host": "www.ele.me",
+      "changeOrigin": true
+    },
+    "/productdetail": {
+        "target": "https://oss.static.nubia.cn",
+        "host": "https://oss.static.nubia.cn",
+        "changeOrigin": true
+      }
+  }
+}

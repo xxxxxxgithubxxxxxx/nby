@@ -1,0 +1,33 @@
+li {
+  list-style: none; }
+
+#Navfenlei {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  color: #fff;
+  position: fixed;
+  z-index: 2; }
+  #Navfenlei nav {
+    border-bottom: 1px #ccc solid; }
+    #Navfenlei nav .nav_ul {
+      display: flex;
+      justify-content: space-around; }
+      #Navfenlei nav .nav_ul li {
+        font-size: 18px;
+        color: #000; }
+  #Navfenlei .navfenlei_daohang {
+    background: #fff;
+    height: 50px;
+    border-bottom: 1px #ccc solid; }
+    #Navfenlei .navfenlei_daohang .navfenlei_daohang_ul {
+      display: flex;
+      justify-content: space-around; }
+      #Navfenlei .navfenlei_daohang .navfenlei_daohang_ul li {
+        color: #000; }
+        #Navfenlei .navfenlei_daohang .navfenlei_daohang_ul li a {
+          color: #969696;
+          text-decoration: none; }
